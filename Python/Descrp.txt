@@ -1,0 +1,27 @@
+Sales Insights for Consumer Electronics Business
+•
+Built a sales insights solution for AtliQ Hardware that helped bring data informed decision making in the organization cutting their operation cost by 40k$ in first 6 months after the launch
+• Jupyter Notebook was written in Python that connected with MySQL to get required sales data to perform exploratory data analysis (EDA)
+· Data cleaning and transformation was done using numpy and pandas. 
+For data visualization Seaborn python module was used
+This insights solution helped business get answers for common questions such as top 5 customers, top 5 products, sales, and expense trends etc.
+Used: python. pandas. matplotlib, SQLAlchemy, seaborn
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sales Insights for Consumer Electronics Business: [Link]							       Jul 2024
+•	Built a sales insights solution for Atliq that helped to cut costs by $40k in the first 6 months after the launch 
+•	Performed EDA using Jupyter Notebook in Python connected with MySQL to get required sales data 
+•	Used Numpy and Pandas for data cleaning and transformation and the Seaborn module for data visualization 
+•	This helped businesses bring data-informed decision-making and get insights to know/answer the most common questions, such as top customers, top products, sales, and expense trends 
+•	Utilized: Python, Pandas, Matplotlib, Seaborn, SQLAlchemy 
+
+=====================================================================================================================================================
+
+Revenue insights in hospitality domain – Cricket Analysis [Power BI | Excel]
+Atliq Grands noticed a loss in their market share and revenue over a few months. To understand the cause of this loss, they needed a way to analyze this. I created a dashboard in Power BI using three months of data.
+With the created dashboard, the Revenue team of Atliq Grands were able to gain insights about their revenue trend. This could help in regaining their revenue and market share by 20% in the next month 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Revenue Insights in Hospitality Domain: [Link]								       Jul 2024
+•	Used the past 3 months of data to understand the cause of the loss in the market share and revenue of Atliq G 
+•	Created a dashboard in Power BI using this data to gain insights into revenue trends 
+•	This helped to regain their revenue and market share by 20% in the next month 
+•	Utilized: Power BI, Excel 

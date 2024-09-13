@@ -1,10 +1,10 @@
+## Forecast Economics data in Python 
 --  To Extract Live Economics data from FRED & do forecasting on the extracted economic data 
 -- Gonna Extract CPI using FRED API Keys
 -- Will Clean it and make that data ready for Time Series Forecasting using Fbs Univariate TS forecasting model called Prophet 
 -- Once we get the Forecasted or predicted values, will do TS cross validation to check the accuracy or to evaluate the model 
-## Forecast Economics data in Python 
 -- Used Fred Api which helped to create a live connection with FRED to extract the data 
--- Extracted the data for CPI for all urbun consumers from FRED site 	& extracted all datapoints 
+-- Extracted the data for CPI for all urbun consumers from FRED site & extracted all datapoints 
 -- Fitted in the dataset & the DF into a Prophet model 
 -- Fitted a Forecasting model to create future DFs & asked the model to predict the values 
 -- Performed Cross Validation to evaluate the model's accuracy by splitting entire data and running multiple trends on it & performance by calculating mae,mse & rsme 
