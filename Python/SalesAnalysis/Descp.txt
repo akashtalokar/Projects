@@ -1,0 +1,21 @@
+-- Sales Analysis 
+-- Merged(concatenated) each month data using pandas, and read the updated DF from .csv
+-- Data Cleaning like dropping NaN, removed text in date column, added month column, city column, 
+-- DE: looked for the best month for sales by looking at earnings, & plotted the sales no using Bar chart 
+-- DE: city who sold most products, citywise sales poltted by bar graph 
+-- DE: analyzed time to display ads[to max likelihood of customers' buying products], created line plot; Recommended time
+-- DE: Products most often sold, 
+-- Results/Inferences: 
+-- Used: numpy, pandas, matplotlib, os, 
+
+=====================================================================================================================================================
+
+-- My Sales Analysis 
+-- Merged(concatenated) each month data using pandas, and read the updated DF from .csv
+-- Data Cleaning like dropping NaN, removed text in date column, added month column, sales column, city column, 
+-- DE: looked for the best month for sales by looking at earnings, & plotted the sales no using Bar chart 
+-- DE: city who sold most products, citywise sales poltted by bar graph 
+-- DE: analyzed time to display ads[to max likelihood of customers' buying products], created line plot; Recommended time
+-- DE: Products most often sold, 
+-- Results/Inferences: 
+-- Used: numpy, pandas, matplotlib, os, 

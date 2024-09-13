@@ -1,0 +1,13 @@
+-- Diwali Sales Analysis 
+-- import libraries, file, dropped unrelated/blank columns, & null values, 
+-- Changed column data types & names, 
+-- EDA: Looked for buyers purchasing power by plotting bar graph of gender vs amount
+-- similarly looked for most buyers' age group & same for states & maritial status, occupation, product category 
+-- 
+-- Used: numpy, pandas, matplotlib, seaborn, 
+
+===========================================================================
+
+-- My Diwali Sales Analysis 
+-- 
+-- Used: numpy, pandas, matplotlib,

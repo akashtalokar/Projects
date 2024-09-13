@@ -1,0 +1,7 @@
+--- Sentiment Analysis and Prediction 
+-- 
+-- Results/Inferences::
+-- Used: Jupyter Notebook, Python, Pandas, Numpy, Matplotlib, FredApi, Plotly, use of web apis, 
+
+=====================================================================================================================================================
+

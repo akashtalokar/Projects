@@ -1,0 +1,24 @@
+-- CricketDataAnalytics 
+-- import, open & Process Match Results File , Creating a DF for MatchSummary where all results are stored 
+-- #Some processing steps, #Using Scorecard as foreign key as match id 
+-- #Export this data into CSV file 
+-- #Process batting summary : #Has Multiple records & each record has 1 match data, #In one array, single list in which all matches are present , #To get batting summary of one match #extend appends one array on another 
+-- #Convert dismissal column to out or not-out, #Creating new column named it, #Apply some transformation #Short way of writing a function
+-- #Removing special characters #Locate & remove it 
+-- #Connect this particular dataset(batting summary) with the match results data, #Create a dictionary
+-- #Bring matchid column in the batting Dataframe, #Getting the match id by the match name 
+-- #Export this table into a CSV file[batting summary] 
+-- #Do Entire transformation to other files also
+-- Used: numpy, pandas, json, 
+
+=======================================================================================
+
+-- T20 WC Cricket Data 
+-- Import, process match results, 
+-- used scorecard as match id to link with other tables 
+-- Created match ids dictionary that maps team names to a unique match id
+-- process batting summary 
+-- cleanup weird charachters 
+-- process bowling summary 
+-- process players info 
+-- 

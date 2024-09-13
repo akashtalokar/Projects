@@ -1,0 +1,5 @@
+-- Credit Risk Analysis 
+-- Took the Loan Dataset and analyzed target variable: loan_status and cheacked & filtred data by these column If Y or N  
+-- Added new column: late loan, droped unrequired columns, filled NaN Values in some required columns
+-- Results/Inferences: 
+-- Used: numpy, pandas, matplotlib, sklearn, seaborn, 

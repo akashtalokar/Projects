@@ -1,0 +1,12 @@
+-- Financial Budget Analysis 
+-- financial budget. In short, it is a detailed report on the income and expenditure of the government for a financial year
+-- analyzing a country’s financial budget
+-- to explain the government’s priorities for the complete financial year
+-- importing the necessary Python libraries and a dataset that contains data about the financial budget of India for the year 202
+-- remove/dropped the NaN values 
+-- only selecting the main departments and putting all the other departments in the other category 
+-- finance department is getting the most of the share from the total budget of the government
+-- finance department is getting 40% of the funds
+-- located different ministries and combined it in the others attribute 
+-- plotted bars, and pie showing funds/budget alocation and distribution among the ministries 
+-- Used: numpy, pandas, matplotlib,

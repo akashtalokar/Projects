@@ -1,0 +1,3 @@
+-- Optimization : In Master Resume 
+-- 
+-- Used: numpy, pandas, matplotlib,
