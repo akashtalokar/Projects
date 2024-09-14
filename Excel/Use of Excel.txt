@@ -1,0 +1,9 @@
+-- Solving business problems using Excel [https://www.youtube.com/watch?v=7W95pylDH8M&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR&index=1] 
+-- Analyzing data & getting insights 
+-- Identifying top suppliers & brands across various categories in a Sales Dataset, looking at YoY Growth: To see sales changes overtime, Ana;lyzing MS, calculating YTD & Moving annual total profit figures 
+-- Profit dataset: Convert Raw data into table (Ctrl + T), insert pivot (Alt + M + V + T), choose attributes(suppliers,brands, categories), Design(in tabular form, removing totals), 
+-- Duplicating worksheet, YOY Growth: conditional formatting, 
+-- MS: for every tear - brandwise MS, sum them all, insert line chart, insert slicer for category, 
+-- YTD calculations: summing up profits for particular interval: SUMIFS(cat, supp, brand, year, mon <= "&mon'), 
+-- MAT: profits for last 12 months from any position(time period) = YTD + Sumifs(profit, cat, supp, brand, year-1, mon >= 'mon'), 
+-- Go to pivot sheet, duplicate, remove & refresh, seeing specific values(ie MAT) for all 3 attributes(supplier, brand, category), 
