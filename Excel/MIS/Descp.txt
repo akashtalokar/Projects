@@ -20,7 +20,7 @@
 	-- Can Off the Grand Total from Design Tab
 	-- Select data -> Analyze -> Pivot Chart [Use Line Graph], Design it 
 	-- Design --> Move Chart --> Object In: Sheet name 
--- Can change Graph Analyrics by the use of slicer 
+-- Can change Graph Analytics by the use of slicer 
 
 
 How to Create MIS Report in excel:: [https://www.youtube.com/watch?v=jHtBl3nD0Tw&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR&index=3]
