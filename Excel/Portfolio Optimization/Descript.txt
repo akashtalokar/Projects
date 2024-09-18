@@ -35,7 +35,8 @@ Portfolio Optimization using Solver in Excel [https://www.youtube.com/watch?v=pr
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Markowitz Portfolio Optimization [https://www.youtube.com/watch?v=CNIVd_b7YJc&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR&index=19] 
+Markowitz Portfolio Optimization [https://www.youtube.com/watch?v=CNIVd_b7YJc&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR&index=19] [https://www.coursehero.com/u/file/38628710/The-Markowitz-Portfolio-Opimitization-Modeldocx/#comments] 
+
 -- y* = E(rp) - rf / (sigmap)^2, y* is proportion of portfolio invested in risky portfolio & A is measure of investors' risk aversion
 -- Calculate Returns for individual assets, Var-Cov Matric,Wts of Equally weighted portfolio with ER & SD, & Optimal Wts for Optimal Risky portfolio, & ER, SD, SR of that portfolio 
 -- Finding the optimal amount of a risk-averse investor will put into a risky portfolio & in the riskfree asset to make a complete portfolio
