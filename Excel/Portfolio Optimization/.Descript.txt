@@ -1,0 +1,51 @@
+-- Portfolio Optimization Seven Security Example with Excel Solver [https://alphabench.com/data/excel-portfolio-optimization.html] 
+-- 2 spreadsheet models for portfolio optimizations
+-- 1] Two-Security case: to highlight the idea of diversification in investing
+-- 20 year return on S&P500, investing in S&P500 ETF, same for GOLD, 
+-- Calculating covariance for these 2 securities, using data downloaded for each 7 securities of 1 year, Name the ranges & use covariance.s(s&p, gold) -- daily [*252 for annual(252 no. of observations or/and no of trading days in a year)], 
+-- Low cov says that then dont move together that much(together their volatility is less)
+-- Calculate Return based on some weight assumptions for S&P500, with the compliment of it being the weight in GOLD, == S&PWeight*ExpRet + (1-Weight)*GOLDExpReturn
+-- Volatility: (calculating is hard as determining asset mix is involved, so used 2-security method) SQRT(Wt^2*Volt1^2 + (1-Wt)^2*Volt2^2)  -- This could be called WeightedAverageVolatility, but for calculating ExpVolt of a portfolio, also add in idea of correlation measuring by the covariance: + 2*Wt*(1-Wt)*Cov 
+-- Efficient Frontier Graph[4 attributes]: Return on Y & Volatility on X: So optimal mix goona lie on this EF, EF shows tradeoff between the Return & Risk 
+-- Creating a line[CAL] from the Rf rate: arbitrary set 2%, touching the EF would be the OptimalMix: which is the best ratio of return to risk(or the highest sharpe ratio?), of those securities, 
+-- SR: Return per unit of risk: return/volatility, so highest SR gives Highest Return/per unit of risk
+-- So find the optimal combination by the formula: index(wt,match(max(sr),sr,0)) -- a dynamic way, as if you change the risk%, we can get the OM directly
+-- 2] Using Solver for optimal use of securities 
+-- 2] Not 2, here are taken 7 securities: & looked for their return & arbitrarily taken the values, 
+-- Volatility: SQRT(VAR.S(INDIRECT(ParticularSecurityRangeName))*252), using historical data for the forecast, 
+-- Not using the manual cov formula, but the excel array function: geeting covariance matrix: Data-->Data Analysis->Covariance & fill whole table by transpose(range) with Ctrl + Shift + Enter
+-- Calculating Portfolio Weight, Return, SD(Volt) using MatrixMulti[multiply wt with cov matrix & the results with the wt, annualized, & whole in sqrt, & SR 
+-- We didnt knew the actual returns could be, so have set a range to be in invested (min & max) 
+-- Solve for the Optimal Weights: Solver-> Max the SR by changing weights subj to constraints[100% invested totally(in all 7), min 5% in each & not more than 20% in each) 
+-- Getting the highest SR with highest expreturn, & if we change weights manually: return is going to go down & volat will incr
+-- Draw Efficient Frontier 
+-- Tip: Covariance-Variance Matrix calculated is based on population, you should convert it to Sample Covariance-Variance Matrix by multiplying by N/N-1
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Graph The Efficient Frontier And Capital Allocation Line In Excel [https://ryanoconnellfinance.com/product/efficient-frontier-and-capital-allocation-line-excel-file/] 
+-- data from yf: with freq daily for time period of 1 year & used close price, [for any 2 securities] 
+-- calc daily return = today/previous - 1, also avg return, std.dev.p, cov.p, rf=2%/252 for daily return,
+-- assigning weights, then portfolio stats(Return, SD, SR), & CAL(wt, ret, sd)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Portfolio Optimization using Solver in Excel [https://www.youtube.com/watch?v=prFCWrfJHBs&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR&index=18] 
+-- 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Markowitz Portfolio Optimization [https://www.youtube.com/watch?v=CNIVd_b7YJc&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR&index=19] [https://www.coursehero.com/u/file/38628710/The-Markowitz-Portfolio-Opimitization-Modeldocx/#comments] 
+
+-- y* = E(rp) - rf / (sigmap)^2, y* is proportion of portfolio invested in risky portfolio & A is measure of investors' risk aversion
+-- Calculate Returns for individual assets, Var-Cov Matric,Wts of Equally weighted portfolio with ER & SD, & Optimal Wts for Optimal Risky portfolio, & ER, SD, SR of that portfolio 
+-- Finding the optimal amount of a risk-averse investor will put into a risky portfolio & in the riskfree asset to make a complete portfolio
+-- Getting (monthly)prices for 4 assets from yf, Calculating Returns = final-initial/initial(monthly), Avg Monthly Returns for each, Sample VAR, Avg Annual Ret & Var(*12) 
+-- Cal: Var-Cov matrix from avg annual ret: naming the ranges; =covar(Asset1, Asset2)*12, 
+-- For Equally wt portfolio: assign wt (.25), ExpRet: mmult(wt * Ret), & SD: sqrt(mmult(mmult(wt * matrix)*wt)), & SR: (ER-Rf)/SD, 
+-- For optimal: first doing same as above & then using solver; i.e. Maximizing SR, 
+-- y* = value; this value tells that this much % of portfolio will be in the risky assets & (1 - value) would be in the Rf assets. 
+-- So if the Rf increases then the proportion in the risky-free assets would also increase 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
