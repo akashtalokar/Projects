@@ -1,0 +1,49 @@
+ -- #1 MIS Report:: [https://www.youtube.com/watch?v=tBuMGS2dbLs] -- Reporting and Analysis
+-- Billing Details: Generated Sales Invoice and created Report: including month, Q, no, Cutomer, Category(ServiceORProduct), etc
+-- Tasks: Subtotal of Basic Amount, GST, Amount Invoiced. 
+-- Subtotal: because specific total of the cells, doesn't include all(hidden) cells like in SUM-- Convert Data into Table Format[Ctrl + T] 
+-- Will Use Slicer from Insert: used to quickly analyze the data by filtering rows by any column attribute(s)  
+-- Insert Pivot Table: Eg. To show each customers' pending payment with due date[Customer & Sum of Amount Invoiced], group by due days & shift it from rows to column,& proper formatting 
+-- This is Called Aging Analysis: Pending Payments grouped by due dates
+-- Doing same for analyzing month wise, and Quarter wise, now changing Sum of Amount Invoiced to GST Amount 
+-- Product wise Analysis: Customer - Category in Rows looking Monthwise
+-- View--> Gridlines 
+
+
+-- Excel - MIS Report:: [https://www.youtube.com/watch?v=dCI2ANY6rTc&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR] 
+-- Used for Representing business analysis through reports including graphs, charts, etc 
+-- 1] Simple MIS Data Reporting:
+	-- Employees Sales Data with State, Department & Sales Amount, 
+	-- Convert into Table, Use Slicer(to show limited data & iterations), subtotal, 
+-- 2] In a proper graphical format: 
+	-- Use pivot table, columns with numbers put in VALUES section, 
+	-- Can Off the Grand Total from Design Tab
+	-- Select data -> Analyze -> Pivot Chart [Use Line Graph], Design it 
+	-- Design --> Move Chart --> Object In: Sheet name 
+-- Can change Graph Analytics by the use of slicer 
+
+
+How to Create MIS Report in excel:: [https://www.youtube.com/watch?v=jHtBl3nD0Tw&list=PLa-VQGKLZ7zh7Wnyf1SpqAwBxZpUqpUrR&index=3]
+-- Excel MIS Report is a procedure employed to generate real-time interactive reports using excel functions, pivot tables, and slicers.
+-- Help Management to access perfromance of the organization & allows for quick DM 
+-- Sample Data[Car Manufacturing data], Pivot Table[Just Click or Drag], Pivot Chart[Column Chart, Pie Chart, Bar], Move Chart, Insert Slicer
+-- Connect All Slicers to All charts, Right Click: Report Connections, 
+-- Complex Dataset like Superstore dataset: Macros should be disables & to convert raw data into table format, 
+
+
+#2 How to create Dashboard [https://www.youtube.com/watch?v=IVitRIQPEDo&list=PLaiIhBhdwACeVm083zTgvOHS8mjZGmE9v&index=2] 
+-- MIS Report Dashboard
+-- Graph[Bar, Column] -> Design -> Quick Layout 
+-- For Monthly Billing: Analyze -> Pivot Chart -> Design -> Move Chart -> Quick Layout 
+
+
+#3 Profit & Loss Account [] 
+-- Sales and forecasting Analysis-- Last 3 years P&L: Forecasting & Analyzing for the 4th year
+-- Will Save Separate P&L for all 3 years
+-- Now add & compile all P&L data into single Accounts Table
+-- Cost of Material Consumed COGS = OS + Purchases + Expenses - CS 
+-- PBT = Revenue - Expenses, Tax = PBT * Tax%, PAT = PBT - Tax 
+-- Percentage Analysis: Sales Growth = Next Year / Last Year - 1:: Same for others 
+-- Forecast = Average of last 2 years 
+-- Forecsting based on the Average: Sales Forecast = Sales(3 year) + Sales Growth(Sales * Growth), Same for others 
+-- Graph: Select % table: Chart & same for P&L with charts & very proper formatting 

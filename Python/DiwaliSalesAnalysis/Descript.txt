@@ -1,0 +1,22 @@
+-- Diwali Sales Analysis 
+-- import libraries, file, dropped unrelated/blank columns, & null values, 
+-- Changed column data types & names, 
+-- EDA: Looked for buyers purchasing power by plotting bar graph of gender vs amount
+-- similarly looked for most buyers' age group & same for states & maritial status, occupation, product category 
+-- 
+-- Used: numpy, pandas, matplotlib, seaborn, 
+
+===========================================================================
+
+-- My Diwali Sales Analysis 
+-- 
+-- Used: numpy, pandas, matplotlib,
+
+==================================================================================
+
+-- From Video Image 
+-- Project Learnings
+Performed data cleaning and manipulation
+Performed exploratory data analysis (EDA) using pandas, matplotlib, and seaborn libraries
+Improved customer experience by identifying potential customers across different states, occupation, gender, and age groups
+Improved sales by identifying most selling product categories and products, which can help to plan inventory and hence meet the demands

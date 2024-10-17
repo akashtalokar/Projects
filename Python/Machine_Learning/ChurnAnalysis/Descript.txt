@@ -1,0 +1,18 @@
+--- Telco Churn Analysis 
+-- Taking sample dataset for Telco customer data & showing the customers who left 
+-- Loaded the Sample Data CSV File & checked for attributes like shape, columns, datatypes, and descriptive statitics for numeric variables 
+	-- Results/Inferences::SeniorCitizen is actually a categorical hence the 25%-50%-75% distribution is not propoer, 75% customers have tenure less than 55 months, Average Monthly charges are USD 64.76 whereas 25% customers pay more than USD 89.85 per month
+-- Data is highly imbalanced, ratio = 73:27 from value_counts, So we analyse the data with other features while taking the target values separately to get some insights.
+-- Performed Data Cleaning by creating a copy, checked missing values, & removed them as the % of this values was very low, Divided customers based on tenure of 12 months, removed unrequired columns 
+-- Data Exploration: Plot distribution of individual predictors by churn, Convert the target variable 'Churn' in a binary numeric variable, Convert all the categorical variables into dummy variables, Relationship between Monthly Charges and Total Charges, 
+	-- -- Total Charges increase as Monthly Charges increase - as expected.
+-- Churn by Monthly Charges and Total Charges, 
+	-- Churn is high when Monthly Charges ar high
+-- Build a corelation of all predictors with 'Churn'
+	-- These are some of the quick insights from this exercise:
+	Electronic check medium are the highest churners
+	Contract Type - Monthly customers are more likely to churn because of no contract terms, as they are free to go customers.
+	No Online security, No Tech Support category are high churners
+	Non senior Citizens are high churners
+	Note: There could be many more such insights, so take this as an assignment and try to get more insights :)
+-- Used: Jupyter Notebook, Python, Pandas, Numpy, Seaborn, Matplotlib,  

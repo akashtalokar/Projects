@@ -1,0 +1,7 @@
+-- Monte Carlo Price Simulation 
+-- Defined a Stock & fetch option chain data & historical stock data from yahoo finance 
+-- Displayed Call Option Data & Retrived the strike price for the first call option 
+-- Plotted the payoff funciton for call & put values
+-- Caluculated call option price using BS by assuming option pricing parameters 
+-- Run a monte carlo simulation, & Plotted histogram for results 	
+-- Used: jupyter notebook, python, numpy, pandas, matplotlib, quantlib, yfinance, scipy, 

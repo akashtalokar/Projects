@@ -1,0 +1,16 @@
+Analyzed user engagement data for a leading educational platform, focusing on Q4 2021 and Q4 2022, using descriptive statistics to assess growth potential.
+Computed key statistical measures (mean, median, and standard deviation) for low-engagement users, identifying trends and patterns in user behavior.
+Conducted comparative analysis of engagement levels between free- and paid-plan subscribers, providing actionable insights into platform usage.
+Utilized advanced Excel functions (SKEW, KURT, AVERAGE, MEDIAN, STDEV.S) to calculate skewness and kurtosis, enhancing the understanding of data distribution and its implications.
+Contributed to strategic decision-making by identifying opportunities to increase user engagement and platform growth based on data-driven insights.
+Calculated 95% confidence intervals for student engagement data across different subscription models, utilizing z-statistics to derive precise estimates.
+Performed advanced statistical analysis in Excel, including sample size determination, standard error calculation, and margin of error estimation, to assess the reliability of data insights.
+Analyzed the impact of subscription models on student engagement over time, using confidence intervals to identify significant trends and variations.
+Conducted hypothesis testing to evaluate the impact of new platform features on student engagement, comparing Q4 2021 and Q4 2022 data.
+Applied two-sample t-tests with unequal variances to assess differences in engagement between free-plan and paying students.
+Utilized statistical analysis to make data-driven decisions, considering potential Type I and Type II errors and their implications on company costs.
+Provided actionable insights into the effectiveness of platform enhancements in driving student engagement.
+Analyzed regional differences in user engagement by comparing minutes watched between US and India free-plan students in 2022.
+Conducted two-sample t-tests with unequal variances to evaluate the significance of differences in platform usage across regions.
+Provided insights for product localization by assessing engagement patterns, helping tailor content and features to regional preferences.
+Developed data-driven recommendations for enhancing user experience based on statistical comparisons of regional engagement.
