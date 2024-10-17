@@ -1,0 +1,23 @@
+Power Bi tutorial for Beginners [https://www.youtube.com/watch?v=6cV3OwFrOkk&list=WL&index=2] 
+-- Report View: For displaying all reports with visuals
+-- Data View: All Tables with DAX values 
+-- Model view: To create connection between tables
+-- Diff Data Sources: Using 'Get Data': Excel, SQL Server, Web, txt/csv, & more
+-- Queries: transform data: when loaded the data to process it 
+-- Project Objective: A Client sale its products online wants to track the sales and Needed the Power Bi Report 
+-- Importing Order details / data  & order amount/profit table [Import as csv & Load] & new tab will open (Data) & [we can transform it if it is not neat & clean] 
+-- Transform data: Can Add custom column, Can Format table/Column by Right Click: applying filter, checking null values, Group by: with assigning operations(sum, avg of the column) 
+-- Applied Steps: in the right pane(all steps performed)  
+-- Apply all Changes before closing 
+-- Data View: Can view features of columns in the ribbon, In Column Tools; -- DAX Queries 
+-- Model View: Building Relationships, orders & details table linked by order_id, Editing: Cardinality: no of (duplicate)values in both tables[1-M, 1-1, M-1, M-M] 
+-- Dashboard: Report View: Added Stacked column chart, also can change charts even after selecting values & Also Format: Make Changes to the chart [Order date to Profits] 
+-- Copy the chart & paste: use amount instead of profits: 
+-- [sub-category vs profit: filters tab: filter top N by Value: Profit
+-- Format painter: to copy and paste the format of 1 chart to another 
+-- Pie Chart: for Category & Quantity; for payment mode[Legend] & quantity[values]  
+-- Add Card: Add Amount in Fields; same for quantity & profits 
+-- New Column: Avg order value = Amt/Qty; Added display card on dashboard 
+-- Adding Filter Cards: Add Slicer: Add Quarter date in Fields; & States: Dropdown
+
+-- Resume: Analyzed E-Commerce Sales data, created an interactive dashboard using power bi, 	 

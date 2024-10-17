@@ -1,0 +1,13 @@
+Make a Power BI Dashboard in 15 Minutes [https://www.youtube.com/watch?v=NISsW-bVAwU&list=WL&index=2]
+-- Importing Coca-Cola Dataset [From Excel to PBI] 
+-- Import from Excel
+-- Under Preview: Load or Transfrom using Power Query
+-- Loaded Data & now on Report View tab
+-- Building some visuals by your imagination [like some header in top & 2 in middle] Dashboard, Oprt Prt Analysis, Sales by states 
+-- Insert Shapes --> Change Style[color, shadow, text, border] from Format Tabs 
+-- Adding Interactive Sections: from Visualization tab [like Q&A section] and styling it 
+-- Creating a visual for operating profit [using key influencers visual] & Data [Analyzing Opr Profit & Explain by: Brand] 
+	-- What is influencing opr profit to incr/decr (which beverage brand?) 
+-- Checking Sales by states: Using MAP, Add States, Total Sales, 
+-- Showing more Financials: Using Matrix, For Beverage Brands: Adding diff columns: changing to avg of price per unit & for opr profit; Format Visuals: styling 
+-- Adding filters for date: Using Slicer: Adding invoice date

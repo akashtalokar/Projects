@@ -1,0 +1,26 @@
+Power Bi tutorial for Beginners - Create Your First Dashboard Now [https://www.youtube.com/watch?v=c7LrqSxjJQQ&list=WL&index=2] 
+-- Import and Transforming Data: Changing data type of columns 
+-- Merging columns for date
+-- Splitting columns by delimiters
+-- Replace Values
+-- Remove Columns [Choose columns in ribbon] 
+-- Close & Apply 
+-- Building Visuals: 
+
+How to use Microsoft Power BI - Tutorial for Beginners
+00:30 Download and Install
+00:55 Welcome Screen
+01:26 Import Data to Your Report
+02:24 Transform Data from Text/CSV Using Power Query Editor
+05:11 Transform Data from Excel Workbook Using Power Query Editor
+08:40 Join Tables with Relationships
+10:34 Insert Chart with Slicer
+14:03 Insert Tables with Quick Measures
+17:24 Insert Map Chart
+18:29 Insert Line Chart
+18:57 Add KPI Chart to Dashboard
+20:17 Save and Publish Report on Web
+21:15 Share Report with Others
+22:05 Wrap Up
+
+-- Publish Report to Reports 

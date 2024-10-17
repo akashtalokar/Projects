@@ -1,0 +1,9 @@
+End to End Data Analytics Project [https://www.youtube.com/watch?v=uL0-6kfiH3g&t=7s]
+-- Getting Data: through API & from Kaggle using Python
+-- Load Data: into Pandas 
+-- Data Cleaning: in Pandas, and data processing 
+-- Load: into SQL Server 
+-- Solve questions: based on this SQL data
+
+-- Kaggle -> Settings -> New Token [kaggle.jason] place it in the home directory 
+-- 
